@@ -11,24 +11,14 @@
 	<header>
 		<h1>How's the weather?</h1>
 	</header>
-	<!--<main>
-		<form>
-			<input class ="input-text" type="text" placeholder="Search for a city" autofocus id="city-input">
-			<input type="submit" class="submit-box" id="submit" value="submit"></input>
-			<span class="msg"></span>
-    	</form>
-			<h2 class="box" id="location"></h2>
-			<h2 class="box" id="temperature"></h2>
-			<h2 class="box" id="wind-speed"></h2>
-			<h2 class="box" id="sky"></h2>
-	</main>-->
-	<div class="input">
-		<input type="text" placeholder="Enter the city" class="input_text">
-		<input type="submit" value="Submit" class="submit">
-	  </div>
-	</div>
+	
+	<section class="input">
+		<input type="text" placeholder="Enter the city" class="input_text"/>
+		<input type="submit" value="Submit" class="submit"/>
+	  </section>
+	
   
-	<div class="container">
+	<article class="container" id="container">
 	  <div class="card">
 		<h1 class="name" id="name"></h1>
 		<p class="temp"></p>
@@ -36,7 +26,7 @@
 		<p class="desc"></p>
 		<p class="speed"></p>
 	  </div>
-	</div>
+	</article>
 <!-- javaScript links -->
 	<script
   src="https://code.jquery.com/jquery-3.6.0.js"

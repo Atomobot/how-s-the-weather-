@@ -5,23 +5,18 @@ body{
 	height: 100vh;
 	background-color:aqua;
 	font-family: 'Ranchers', cursive;
+	background-image: url("");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-/*header{
+header{
 	text-align: center;
 	margin-bottom: 4rem;
 }
 
-main{
-	margin-left: 6rem;
-}
 
-.box{
-	border: 3px solid black;
-	margin-right: 50vh;
-	padding: 10px;
-	background-color:beige; 
-}*/
 
 .input{
 	text-align: center;
@@ -56,6 +51,9 @@ main{
 	height: 40vh;
 	margin: 50px auto;
 	border-radius: 2px;
+	color:rgb(7, 7, 7);
+	text-shadow: 10px solid #1111;
+	text-emphasis-color: #111;
   }
   
   
@@ -73,6 +71,8 @@ main{
   
   .card p{
 	text-align: center;
-	margin:40px 0;
+	margin:40px ;
 	font-size:20px;
+	/*background-color: rgba(100,100,100,0.5);*/
+	border-radius: 2px;
   }
