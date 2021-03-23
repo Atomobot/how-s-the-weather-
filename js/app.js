@@ -10,8 +10,8 @@ const icon= document.querySelector('#wicon')
 const box= document.querySelector('main');
 
 
-button.addEventListener('click', name);
-function name() {
+button.addEventListener('click', weather);
+async function weather() {
 	fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=9bd200a599d1cd115440b9b41e57c07a')
 	.then(response => response.json())
 	.then(data => {

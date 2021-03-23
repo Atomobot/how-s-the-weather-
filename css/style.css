@@ -16,7 +16,7 @@ body{
 }
 
 header{
-	margin-top: 15rem;
+	margin-top: 25rem;
 	color:#efeff1;
 	-webkit-text-stroke: 0.5px rgb(0, 0, 0);
 	text-shadow: 0px 4px 4px #282828;
@@ -31,7 +31,7 @@ main{
 	margin: 4rem;
 	padding: 1rem;
 	background-color: rgb(0, 0, 0);
-	background-image: url("https://media.giphy.com/media/YkXNjAkG7CfEVx3gcy/giphy.gif");
+	background-image: url("https://media.giphy.com/media/ixvKqzJFAg2DC/giphy.gif");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -98,8 +98,47 @@ main{
 	  size: 4rem;	  
   }
 
-
+  footer{
+	  margin-bottom: 4rem;
+	  font-size: 1rem;
+  }
+  
+  
   @media screen and (min-width: 800px){
+	  
+	body{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: stretch;
+		background: linear-gradient(0deg, #d6f0f5, #0b5ef8, #00effc, #f8ad0b 90% );
+		background-size: 600% 600%;
+	
+		-webkit-animation: AnimationName 30s ease infinite;
+		-moz-animation: AnimationName 30s ease infinite;
+		animation: AnimationName 30s ease infinite;
+	}
+	
+	@-webkit-keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
+	@-moz-keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
+	@keyframes AnimationName {
+		0%{background-position:51% 0%}
+		50%{background-position:50% 100%}
+		100%{background-position:51% 0%}
+	}
+	  
+	  header{
+		  margin-top: 10rem;
+	  }
 
 	input[type="submit"]:hover{
 		background: linear-gradient(0deg, #efeff1, #08849e, #02d0fc, #020cfc);
@@ -128,6 +167,5 @@ main{
 		50%{background-position:50% 100%}
 		100%{background-position:51% 0%}
 	}
-
 
 }
